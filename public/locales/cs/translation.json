@@ -85,6 +85,9 @@
 	},
 
 	"Training": {
-		"Hello, there is nothing here yet!": "Zdravíčko, zatím tu nic není!"
+		"Hello, there is nothing here yet!": "Zdravíčko, zatím tu nic není!",
+		"Users": "Uživatelé",
+		"Created": "Vytvořeno",
+		"Username": "Uživatelské jméno"
 	}
 }

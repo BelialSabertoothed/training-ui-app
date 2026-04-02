@@ -85,6 +85,9 @@
 	},
 
 	"Training": {
-		"Hello, there is nothing here yet!": "Hello, there is nothing here yet!"
+		"Hello, there is nothing here yet!": "Hello, there is nothing here yet!",
+		"Users": "Users",
+		"Created": "Created",
+		"Username": "Username"
 	}
 }
