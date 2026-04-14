@@ -10,13 +10,11 @@ import {
   CardHeader,
   Table,
   Spinner,
-  Tooltip,
 } from "reactstrap";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
 import { DateTime } from "asab_webui_components";
 
-// Pomocná komponenta pro kopírování
 const CopyValue = ({ value }) => {
   const [copied, setCopied] = useState(false);
   const copyToClipboard = () => {
@@ -81,7 +79,6 @@ export function DetailScreen() {
 
   return (
     <Container fluid className="pt-3">
-      {/* Tlačítko zpět - upravené pro viditelnost v obou režimech */}
       <Row className="mb-3 justify-content-center">
         <Col lg={8}>
           <Button

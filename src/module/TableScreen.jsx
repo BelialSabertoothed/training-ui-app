@@ -39,6 +39,17 @@ export function TableScreen(props) {
         sort: "created",
         render: ({ row }) => <DateTime value={row.created} />,
       },
+	  {
+		title: t("Training|Address") || "Address",
+		sort: "address",
+		width: "30%",
+		render: ({ row }) => row.address,
+	  },
+	  {
+		title: t("Training|Last sign in") || "Last sign in",
+		sort: "last_sign_in",
+		render: ({ row }) => <DateTime value={row.last_sign_in} />,
+	  }
     ],
     [t, navigate],
   );

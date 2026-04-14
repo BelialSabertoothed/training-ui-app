@@ -93,5 +93,16 @@
     "Last sign in": "Poslední přihlášení",
     "Address": "Adresa",
     "Phone": "Telefon"
+  },
+
+  "Space": {
+	"Loading": "Navazuji spojení s teleskopem...",
+	"RateLimit": "NASA hlásí: Příliš mnoho zvědavých očí! (Limit požadavků vyčerpán, zkuste to prosím za chvíli)",
+    "Title": "Vesmírný objev dne",
+    "Description": "Popis úkazu",
+    "ViewHD": "Otevřít v plné kvalitě",
+    "NASA_Copyright": "Autorská práva",
+    "LoadNew": "Načíst dnešní snímek",
+    "Error": "Nepodařilo se spojit se základnou NASA"
   }
 }

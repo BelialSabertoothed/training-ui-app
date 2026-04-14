@@ -2,6 +2,7 @@ import { Module } from "asab_webui_components";
 
 import { TableScreen } from "./TableScreen.jsx";
 import { DetailScreen } from "./DetailScreen.jsx";
+import { CustomScreen } from "./CustomScreen.jsx";
 
 export default class TableApplicationModule extends Module {
   constructor(app, name) {
@@ -24,6 +25,18 @@ export default class TableApplicationModule extends Module {
       path: "/detail/:id",
       name: "Detail",
       component: DetailScreen,
+    });
+
+	app.Router.addRoute({
+      path: "/custom",
+      name: "Space",
+      component: CustomScreen,
+    });
+
+    app.Navigation.addItem({
+      name: "Custom",
+      icon: "bi bi-star",
+      url: "/custom",
     });
   }
 }

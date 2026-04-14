@@ -93,5 +93,16 @@
     "Last sign in": "Last sign in",
     "Address": "Address",
     "Phone": "Phone"
+  },
+
+  "Space": {
+	"Loading": "Establishing connection to the telescope...",
+	"RateLimit": "NASA reports: Too many curious eyes! (Request limit exceeded, please try again later)",
+    "Title": "Astronomy Picture of the Day",
+    "Description": "Explanation",
+    "ViewHD": "Open HD version",
+    "NASA_Copyright": "Copyright",
+    "LoadNew": "Load today's shot",
+    "Error": "Failed to connect to NASA base"
   }
 }
