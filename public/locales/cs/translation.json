@@ -81,7 +81,8 @@
     "You have unsaved changes, do you want to discard them?": "Máte neuložené změny, přejete si je zrušit?",
     "Fullscreen": "Celá obrazovka",
     "Exit Fullscreen": "Opustit celou obrazovku",
-    "Invalid Date": "Nesprávné datum"
+    "Invalid Date": "Nesprávné datum",
+	"Retry": "Zkusit znovu"
   },
 
   "Training": {

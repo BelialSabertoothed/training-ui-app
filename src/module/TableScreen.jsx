@@ -42,7 +42,6 @@ export function TableScreen(props) {
 	  {
 		title: t("Training|Address") || "Address",
 		sort: "address",
-		width: "30%",
 		render: ({ row }) => row.address,
 	  },
 	  {

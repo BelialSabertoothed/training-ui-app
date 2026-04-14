@@ -81,7 +81,8 @@
     "You have unsaved changes, do you want to discard them?": "You have unsaved changes, do you want to discard them?",
     "Fullscreen": "Fullscreen",
     "Exit Fullscreen": "Exit Fullscreen",
-    "Invalid Date": "Invalid Date"
+    "Invalid Date": "Invalid Date",
+	"Retry": "Retry"
   },
 
   "Training": {
